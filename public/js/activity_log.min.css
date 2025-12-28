@@ -1,0 +1,175 @@
+.activity-log-s2020-panel .btn.btn-default {
+    background-color: #dbe7f3;
+    color: #3a3e63;
+    border-color: #c7d7e7;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.activity-log-s2020-panel .btn.btn-default:focus,
+.activity-log-s2020-panel .btn.btn-default:hover {
+    color: #212529;
+    background-color: #bfd4ea;
+    border-color: #b5cee6
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .multiselect.dropdown-toggle.btn.btn-default {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .multiselect.dropdown-toggle.btn.btn-default:focus {
+    border-color: #80bdff;
+    box-shadow: rgba(0, 123, 255, .25) 0 0 0 3.2px
+}
+
+.ltr .activity-log-s2020-panel .col-md-4 .btn-group .multiselect.dropdown-toggle.btn.btn-default .caret {
+    margin-left: 5px
+}
+
+.rtl .activity-log-s2020-panel .col-md-4 .btn-group .multiselect.dropdown-toggle.btn.btn-default .caret {
+    margin-right: 5px
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter:hover {
+    background: #fff
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter .input-group {
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter .input-group .input-group-addon {
+    border: 0;
+    background: #fff
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter .input-group .multiselect-search {
+    border: 0
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter .input-group .multiselect-search:active,
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter .input-group .multiselect-search:focus {
+    box-shadow: none;
+    border: 0
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter .input-group .multiselect-clear-filter.btn.btn-default {
+    background: #fff;
+    border: 0
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group .dropdown-menu.multiselect-container .multiselect-item.filter .input-group .multiselect-clear-filter.btn.btn-default:hover {
+    color: #fc5f7d !important
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group.pos2 .btn.btn-default.order_view {
+    padding: 8px 10px;
+    font-size: 10px
+}
+
+.activity-log-s2020-panel .col-md-4 .btn-group.pos2 .btn.btn-default.order_view i {
+    position: relative;
+    top: 1px
+}
+
+.activity-log-s2020-panel .col-md-8 .form-control {
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.activity-log-s2020-panel .col-md-8 .form-control::-moz-placeholder {
+    color: #8186b5
+}
+
+.activity-log-s2020-panel .col-md-8 .form-control::placeholder {
+    color: #8186b5
+}
+
+.activity-log-s2020-panel .col-md-8 .form-control:active,
+.activity-log-s2020-panel .col-md-8 .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: rgba(0, 123, 255, .25) 0 0 0 3.2px
+}
+
+.activity-log-s2020-panel .col-md-8 .form-control:active::-moz-placeholder,
+.activity-log-s2020-panel .col-md-8 .form-control:focus::-moz-placeholder {
+    font-size: 0
+}
+
+.activity-log-s2020-panel .col-md-8 .form-control:active::placeholder,
+.activity-log-s2020-panel .col-md-8 .form-control:focus::placeholder {
+    font-size: 0
+}
+
+.activity-log-s2020-panel .col-md-8 .btn.btn-default.view_level {
+    padding: 6px 10px
+}
+
+.activity-log-s2020-panel .col-md-8 .btn.btn-default.view_level.active {
+    color: #212529;
+    background-color: #bfd4ea;
+    border-color: #b5cee6
+}
+
+.activity-log-s2020-panel .col-md-8 .btn.btn-default.view_level i {
+    position: relative;
+    top: 1px
+}
+
+.activity-log-s2020-content .timeline-wrapper:before {
+    background: #c8d7e1
+}
+
+.activity-log-s2020-content .date-label p {
+    color: #636f88;
+    background: #f0f0f0;
+    border-radius: 50px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1) inset
+}
+
+.activity-log-s2020-content .timeline-item {
+    color: #3a3e63
+}
+
+.activity-log-s2020-content .timeline-item a,
+.activity-log-s2020-content .timeline-item p {
+    color: #3a3e63
+}
+
+.activity-log-s2020-content .timeline-item>span .fa-building,
+.activity-log-s2020-content .timeline-item>span .fa-clock-o,
+.activity-log-s2020-content .timeline-item>span .fa-user {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    border-radius: 50%;
+    background: #3a3e63;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+ 
