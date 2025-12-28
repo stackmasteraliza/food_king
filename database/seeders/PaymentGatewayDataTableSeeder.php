@@ -49,7 +49,7 @@ class PaymentGatewayDataTableSeeder extends Seeder
                 ],
                 [
                     "option" => 'stripe_secret',
-                    "value" => 'sk_test_YKyuAoMHjXaUADW4SuKuXeIn0079Pu1OSD',
+                    "value" => 'YOUR_STRIPE_SECRET_KEY_HERE',
                 ],
                 [
                     "option" => 'stripe_mode',
@@ -93,7 +93,7 @@ class PaymentGatewayDataTableSeeder extends Seeder
                 ],
                 [
                     "option" => 'paystack_secret_key',
-                    "value" => 'sk_test_e3c7763a083c0fa457da5f105b8bdbe75312235d',
+                    "value" => 'YOUR_STRIPE_PUBLISHABLE_KEY_HERE',
                 ],
                 [
                     "option" => 'paystack_payment_url',

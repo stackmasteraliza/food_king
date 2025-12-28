@@ -1,0 +1,53 @@
+{
+  "name": "laravel-vue-pagination",
+  "version": "4.1.3",
+  "description": "Vue.js pagination component for Laravel paginators",
+  "author": "Gilbert Pellegrom <gilbert@pellegrom.me>",
+  "homepage": "https://github.com/gilbitron/laravel-vue-pagination",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "component",
+    "bootstrap",
+    "laravel",
+    "pagination"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilbitron/laravel-vue-pagination.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "./dist/laravel-vue-pagination.umd.js",
+  "module": "./dist/laravel-vue-pagination.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "lint": "eslint --fix src",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/test-utils": "^2.2.1",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.2",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.4.1",
+    "jsdom": "^20.0.2",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
+    "vite": "^3.2.2",
+    "vitest": "^0.24.5",
+    "vuepress": "^2.0.0-beta.61"
+  }
+}

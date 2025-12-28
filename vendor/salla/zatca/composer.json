@@ -1,0 +1,50 @@
+{
+    "name": "salla/zatca",
+    "description": "A helper to generate the QR code and signed it for ZATCA e-invoicing",
+    "type": "library",
+    "keywords": [
+        "ZATCA",
+        "e-invocing",
+        "salla",
+        "qr-code"
+    ],
+    "homepage": "https://github.com/salla/zatca",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salla Team",
+            "email": "support@salla.dev",
+            "homepage": "https://salla.dev"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/salla/zatca/issues",
+        "source": "https://github.com/salla/zatca"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "ext-mbstring": "*",
+        "ext-dom": "*",
+        "robrichards/xmlseclibs": "^3.1",
+        "josemmo/uxml": "^0.1.4",
+        "chillerlan/php-qrcode": "^4.3",
+        "phpseclib/phpseclib": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Salla\\ZATCA\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Salla\\ZATCA\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
