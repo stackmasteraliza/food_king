@@ -1,0 +1,32 @@
+{
+    "name": "dipokhalder/laravel-env-editor",
+    "description": "A package for editing the .env file in your Laravel root.",
+    "keywords": ["laravel", "env", "env-editor"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dipok Halder",
+            "email": "dipokhalder1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dipokhalder\\EnvEditor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dipokhalder\\EnvEditor\\EnvEditorServiceProvider"
+            ],
+            "aliases": {
+                "EnvEditor": "Dipokhalder\\EnvEditor\\EnvEditorFacade"
+            }
+        }
+    }
+}

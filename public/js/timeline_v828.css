@@ -1,0 +1,1123 @@
+.multiselect-container.dropdown-menu {
+    width: 220px;
+    width: 220px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.multiselect-container li {
+    padding: 5px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.multiselect-container li:last-child {
+    border-bottom: none;
+}
+
+.multiselect-container li:hover {
+    background: #eee;
+}
+
+.multiselect-container .checkbox {
+    margin: 0 !important;
+}
+
+.multiselect-container .checkbox input {
+    margin-right: 5px;
+}
+
+.multiselect-container .checkbox label {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.timeline-wrapper {
+    position: relative;
+}
+
+.timeline-wrapper:before {
+    position: absolute;
+    left: 53px;
+    top: 0;
+    bottom: 82px;
+    content: '';
+    width: 4px;
+    background: #d4d0d0;
+}
+
+.timeline-offset .timeline-wrapper:before {
+    bottom: 55px;
+}
+
+.date-label {
+    position: relative;
+    z-index: 9;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.date-label p {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #307bb3;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 110px;
+    font-weight: bold;
+}
+
+.timeline-item {
+    border: 2px solid #d8e1e3;
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    position: relative;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    /*max-width: 510px;*/
+}
+
+.image-time {
+    border: 2px solid #eee;
+    background: #f9f9f9;
+    display: inline-block;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 15px;
+}
+
+/*.item-wrapper { margin-bottom:20px;}*/
+.image-time span {
+    font-size: 12px;
+    color: #333;
+    padding: 5px;
+    display: block;
+}
+
+.timeline_quote .timeline-item p {
+    color: #777;
+}
+
+.timeline_quote .timeline-item p i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.timeline_quote .timeline-item p i.fa-quote-right {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.timeline-attach {
+    background-color: #f3f3f3;
+    border: 1px solid #e9eaed;
+    overflow: hidden;
+    padding: 6px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.extend i:before {
+    content: "\f0f6";
+}
+
+.timeline-attach a {
+    color: #307bb3;
+}
+
+.timeline-attach i {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.timeline-item p {
+    font-size: 13px;
+    color: #333;
+}
+
+.timeline-item p strong {
+    font-size: 13px;
+    color: #333;
+    font-weight: 700;
+}
+
+.timeline-item p span,
+.timeline-item p a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.timeline-item p a {
+    font-weight: bold;
+}
+
+.timeline-item>span {
+    font-size: 13px;
+    color: #222;
+}
+
+.timeline-item>span .fa-user,
+.timeline-item>span .fa-clock-o {
+    color: #909090;
+    font-size: 12px;
+}
+
+.timeline-offset .timeline-item {
+    margin-bottom: -20px;
+}
+
+.timeline-wrapper .col-md-6:last-child .timeline-item {
+    margin-bottom: 0;
+}
+
+.timeline-item:after {
+    position: absolute;
+    right: -20px;
+    top: 20px;
+    content: '';
+    border: 10px solid transparent;
+    border-left: 10px solid #fff;
+}
+
+.timeline-item:before {
+    position: absolute;
+    right: -24px;
+    content: '';
+    top: 19px;
+    border: 11px solid transparent;
+    border-left: 11px solid #d8e1e3;
+}
+
+.item-wrapper .timeline-item:after {
+    left: -20px;
+    right: auto;
+    border: 10px solid transparent;
+    border-right: 10px solid #fff;
+}
+
+.item-wrapper .timeline-item:before {
+    left: -24px;
+    right: auto;
+    content: '';
+    border: 11px solid transparent;
+    border-right: 11px solid #d8e1e3;
+}
+
+.extend {
+    position: absolute;
+    right: -37px;
+    top: 20px;
+    background: #307bb3;
+    border: 4px solid #eee;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.posts .extend {
+    top: 25px;
+    left: -42px !important;
+    width: 30px;
+    height: 30px;
+    background: #a4a0a0;
+}
+
+.posts .extend p {
+    position: absolute;
+    right: 8px;
+    color: #555;
+    top: 25px;
+    display: inline-block;
+    background: #eee;
+}
+
+.post-msg {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.attachment-file {
+    position: relative;
+    float: left;
+    margin: 0px 10px 10px 0;
+}
+
+.bar-status {
+    position: relative;
+    margin: -5px -15px -5px 10px;
+    padding: 5px 8px;
+    color: #fff;
+}
+
+.attachment-file>a {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    width: 140px;
+    text-align: center;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.attachment-file>a span {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #777;
+    height: auto;
+    overflow: hidden;
+    background: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+    text-align: left;
+    padding: 7px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.attachment-file>a i {
+    display: block;
+    color: #307bb3;
+    font-size: 45px;
+    line-height: 140px;
+    height: 140px;
+    clear: both;
+}
+
+.attach-hov {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(245, 245, 245, 0.8);
+    border: 1px solid #e5e5e5;
+    padding: 6px;
+}
+
+.attachment-file:hover .attach-hov {
+    display: block;
+}
+
+.attach-hov h4 {
+    font-size: 13px;
+    border: none;
+    margin: 0;
+}
+
+.attach-hov span {
+    color: #777;
+    font-size: 11px;
+}
+
+.attach-hov .btt {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-left: 0;
+}
+
+.attach-hov .pull-left i {
+    font-size: 18px;
+    margin-right: 8px;
+    color: #307bb3;
+}
+
+.attach-hov>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.on-h {
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    display: none;
+}
+
+.timeline-item:hover .on-h {
+    display: block;
+}
+
+.timeline-item:last-child {}
+
+.item-wrapper .extend {
+    left: -37px;
+}
+
+.extend-ico {
+    position: absolute;
+    left: -86px;
+    top: 12px;
+    color: #ddd;
+    width: 55px;
+    text-align: center;
+}
+
+.extend-ico i {
+    color: #307bb3;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.extend-ico p {
+    color: #5c5c5c;
+    font-size: 10px;
+}
+
+.extended .extend {
+    left: -72px;
+    top: 5px;
+    background: #ae37ae;
+    border: 4px solid #eee;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.extended .extend i {
+    color: #fff;
+    line-height: 42px;
+}
+
+.extended .timeline-item {
+    margin-left: 100px;
+}
+
+#timeline_content .pagination {
+    margin-left: 100px;
+}
+
+.timeline_add_invoice .extend,
+.timeline_add_estimate .extend,
+.timeline_add_po .extend,
+.timeline_add_recurring_invoice .extend,
+timeline_download_client .extend {
+    background: #2fb44f;
+    color: #fff;
+}
+
+.timeline_add_invoice .extend i:before,
+.timeline_add_po .extend i:before,
+.timeline_add_estimate .extend i:before {
+    content: "\f0f6";
+}
+
+.timeline_add_appointment .extend i:after,
+.timeline_add_invoice .extend i:after,
+.timeline_add_po .extend i:after,
+.timeline_add_estimate .extend i:after,
+.timeline_add_recurring_invoice .extend i:after {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f067";
+    color: #fff;
+    background: #05621B;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    padding: 0px 2px 0 2px;
+}
+
+.timeline_update_invoice .extend,
+.timeline_edit_po .extend,
+.timeline_update_estimate .extend,
+.timeline_update_income .extend,
+.timeline_edit_staff .extend,
+.timeline_edit_appointment .extend,
+.timeline_update_expense .extend,
+.timeline_edit_activity .extend,
+.timeline_edit_project .extend,
+.timeline_edit_client .extend,
+.timeline_edit_product .extend,
+.timeline_settings .extend,
+.timeline_send_login .extend,
+.timeline_edit_layout .extend,
+.timeline_edit_email_template .extend,
+.timeline_received_stock_updated .extend,
+.timeline_edit_recurring_invoice .extend,
+.stock_adjustment_updated .extend,
+.timeline_sold_stock_updated .extend {
+    background: #307bb3;
+    color: #fff;
+}
+
+.timeline_update_invoice .extend i:before,
+.timeline_edit_appointment .extend i:before,
+.timeline_edit_po .extend i:before,
+.timeline_update_estimate .extend i:before {
+    content: "\f0f6";
+}
+
+.timeline_edit_staff .extend i:before {
+    content: "\f007";
+}
+
+.timeline_edit_activity .extend i:before {
+    content: "\f0b1";
+}
+
+.timeline_edit_project .extend i:before {
+    content: "\f0b1";
+}
+
+.timeline_edit_client .extend i:before {
+    content: "\f0c0";
+}
+
+.timeline_edit_product .extend i:before {
+    content: "\f07a";
+}
+
+.timeline_settings .extend i:before {
+    content: "\f013";
+}
+
+.timeline_change_email .extend i:before {
+    content: "\f199";
+}
+
+.timeline_change_password .extend i:before {
+    content: "\f023";
+}
+
+.timeline_send_login .extend i:before {
+    content: "\f0e0";
+}
+
+.timeline_delete_appointment .extend i:before,
+.timeline_add_appointment .extend i:before,
+.timeline_edit_appointment .extend i:before {
+    content: "\f133";
+}
+
+.timeline_update_invoice .extend i:after,
+.timeline_edit_appointment .extend i:after,
+.timeline_edit_po .extend i:after,
+.timeline_update_expense .extend i:after,
+.timeline_update_estimate .extend i:after,
+.timeline_update_income .extend i:after,
+.timeline_edit_staff .extend i:after,
+.timeline_edit_activity .extend i:after,
+.timeline_edit_project .extend i:after,
+.timeline_edit_client .extend i:after,
+.timeline_edit_product .extend i:after,
+.timeline_send_login .extend i:after,
+.timeline_received_stock_updated .extend i:after,
+.stock_adjustment_updated .extend i:after,
+.timeline_edit_email_template .extend i:after,
+.timeline_edit_layout .extend i:after,
+.timeline_sold_stock_updated .extend i:after,
+.timeline_edit_recurring_invoice .extend i:after {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f040";
+    color: #fff;
+    background: #0F4167;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    padding: 0px 2px 0 2px;
+}
+
+.timeline_send_login .extend i:after {
+    content: "\f084";
+}
+
+.timeline_update_expense .extend i:before,
+.timeline_update_income .extend i:before {
+    content: "\f155";
+}
+
+.timeline_send_invoice .extend i:before,
+.timeline_send_estimate .extend i:before {
+    content: "\f0e0";
+}
+
+.timeline_print_invoice .extend i:before,
+.timeline_print_estimate .extend i:before,
+.timeline_client_print_estimate .extend i:before,
+.timeline_client_print_invoice .extend i:before {
+    content: "\f02f";
+}
+
+.timeline_delete_invoice .extend,
+.timeline_delete_po .extend,
+.timeline_delete_income .extend,
+.timeline_delete_expense .extend,
+.timeline_delete_client .extend,
+.timeline_delete_activity .extend,
+.timeline_delete_project .extend,
+.timeline_delete_layout .extend,
+.timeline_received_stock_deleted .extend,
+.timeline_sold_stock_deleted .extend,
+.stock_adjustment_deleted .extend,
+.timeline_delete_email_template .extend,
+.timeline_delete_recurring_invoice .extend,
+.timeline_delete_product .extend,
+.timeline_delete_appointment .extend {
+    background: #b32d2d;
+    color: #fff;
+}
+
+.timeline_delete_invoice .extend i:before,
+.timeline_delete_po .extend i:before {
+    content: "\f0f6";
+}
+
+.timeline_delete_client .extend i:before {
+    content: "\f007";
+}
+
+.timeline_delete_activity .extend i:before {
+    content: "\f0b1";
+}
+
+.timeline_delete_project .extend i:before {
+    content: "\f0b1";
+}
+
+.timeline_delete_product .extend i:before {
+    content: "\f07a";
+}
+
+.timeline_delete_appointment .extend i:after,
+.timeline_delete_invoice .extend i:after,
+.timeline_received_stock_deleted .extend i:after,
+.timeline_delete_po .extend i:after,
+.timeline_delete_income .extend i:after,
+.timeline_delete_expense .extend i:after,
+.timeline_delete_client .extend i:after,
+.timeline_delete_activity .extend i:after,
+.timeline_delete_project .extend i:after,
+.timeline_delete_layout .extend i:after,
+.timeline_sold_stock_deleted .extend i:after,
+.stock_adjustment_deleted .extend i:after,
+.timeline_delete_email_template .extend i:after,
+.timeline_delete_recurring_invoice .extend i:after,
+.timeline_delete_product .extend i:after {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f00d";
+    color: #fff;
+    background: #590000;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    padding: 0px 2px 0 2px;
+}
+
+.timeline_delete_income .extend i:before,
+.timeline_delete_expense .extend i:before {
+    content: "\f155";
+}
+
+.timeline_delete_invoice_payment .extend,
+.timeline_delete_staff .extend {
+    background: #b32d2d;
+    color: #fff;
+}
+
+.timeline_delete_invoice_payment .extend i:after {
+    content: "\f0d6";
+}
+
+.timeline_delete_staff .extend i:after {
+    content: "\f007";
+}
+
+.timeline_delete_invoice_payment .extend i:before,
+.timeline_delete_staff .extend i:before {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f00d";
+    color: #fff;
+    background: #590000;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    padding: 0px 2px 0 2px;
+}
+
+.timeline_client_view_invoice .extend i:before,
+.timeline_client_view_estimate .extend i:before,
+.timeline_client_read_estimate_email i:before {
+    content: "\f06e";
+}
+
+.timeline_download_client .extend i:before {
+    content: "\f019";
+}
+
+.timeline_add_invoice_payment .extend,
+.timeline_client_pay .extend,
+.timeline_add_appointment .extend,
+.timeline_add_staff .extend,
+.timeline_add_activity .extend,
+.timeline_add_project .extend,
+.timeline_add_client .extend,
+.timeline_received_stock .extend,
+.timeline_add_layout .extend,
+.timeline_add_email_template .extend,
+.timeline_add_product .extend,
+.stock_adjustment .extend,
+.timeline_sold_stock .extend,
+.timeline_import_data .extend {
+    background: #2fb44f;
+    color: #fff;
+}
+
+.timeline_import_data .extend i:after {
+    content: "\f093";
+}
+
+.timeline_add_staff .extend i:after {
+    content: "\f007";
+}
+
+.timeline_add_activity .extend i:after {
+    content: "\f0b1";
+}
+
+.timeline_add_project .extend i:after {
+    content: "\f0b1";
+}
+
+.timeline_add_client .extend i:after {
+    content: "\f0c0";
+}
+
+.timeline_add_product .extend i:after {
+    content: "\f07a";
+}
+
+.timeline_add_invoice_payment .extend i:before,
+.timeline_client_pay .extend i:before,
+.timeline_add_staff .extend i:before,
+.timeline_add_activity .extend i:before,
+.timeline_add_project .extend i:before,
+.timeline_add_client .extend i:before,
+.timeline_add_layout .extend i:before,
+.timeline_add_email_template .extend i:after,
+.timeline_add_product .extend i:before {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f067" !important;
+    color: #fff;
+    background: #006819;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    padding: 1px 2px 0 2px;
+}
+
+.timeline_client_read_invoice_email .extend i:before {
+    content: "\f003";
+}
+
+.timeline_update_invoice_payment .extend {
+    background: #307bb3;
+    color: #fff;
+}
+
+.timeline_update_invoice_payment .extend i:before {
+    content: "\f0d6";
+}
+
+.timeline_update_invoice_payment .extend i:after {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f040";
+    color: #fff;
+    background: #093f68;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    padding: 0px 2px 0 4px;
+}
+
+.timeline_add_expense .extend,
+.timeline_add_income .extend {
+    background: #2fb44f;
+    color: #fff;
+}
+
+.timeline_add_expense .extend i:before,
+.timeline_add_income .extend i:before {
+    content: "\f155";
+}
+
+.timeline_add_expense .extend i:after,
+.timeline_add_income .extend i:after {
+    font-size: 14px;
+    position: absolute;
+    right: -17px;
+    top: -2px;
+    bottom: 10px;
+    content: "\f067";
+    color: #fff;
+    background: #006819;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    padding: 1px 2px 0 2px;
+}
+
+.timeline_add_time .extend {
+    background: #2fb44f;
+    color: #fff;
+}
+
+.timeline_add_time .extend i:after {
+    content: "\f017";
+}
+
+.timeline_add_time .extend i:before {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f067";
+    color: #fff;
+    background: #006819;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    padding: 1px 2px 0 2px;
+}
+
+.timeline_update_time .extend {
+    background: #307bb3;
+    color: #fff;
+}
+
+.timeline_update_time .extend i:after {
+    content: "\f017";
+}
+
+.timeline_update_time .extend i:before {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f040";
+    color: #fff;
+    background: #0B3C62;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    padding: 1px 2px 0 6px;
+}
+
+.timeline_delete_time .extend {
+    background: #b32d2d;
+    color: #fff;
+}
+
+.timeline_delete_time .extend i:after {
+    content: "\f017";
+}
+
+.timeline_delete_time .extend i:before {
+    font-size: 14px;
+    position: absolute;
+    right: -13px;
+    top: -4px;
+    bottom: 10px;
+    content: "\f00d";
+    color: #fff;
+    background: #820000;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    padding: 0px 2px 0 2px;
+}
+
+.timeline_client_pay .extend i:before {
+    content: "\f0d6";
+}
+
+.linehightfix {
+    padding: 5px 10px 7px;
+}
+
+#TimelineBlock,
+#StockTransactionsBlock,
+#StockBlock,
+#NotificationsBlock,
+#NotesBlock {
+    background: #eee;
+    padding: 20px;
+    margin: -20px;
+}
+
+#timeline_content {
+    overflow: hidden;
+}
+
+#collapse-StockTransactionsBlock #StockTransactionsBlock {
+    margin: 0px -20px -20px;
+}
+
+#TimelineBlock .pagination,
+#StockTransactionsBlock .pagination {
+    margin: 0;
+}
+
+#TimelineBlock>.panel,
+#StockTransactionsBlock>.panel,
+#NotesBlock>.panel {
+    border: none;
+    border-bottom: 1px solid #d8e1e3;
+    border-radius: 0;
+    margin: -20px -20px 20px -20px;
+}
+
+.timeline_delete_expense .extend i:after,
+.timeline_update_expense .extend i:after,
+.timeline_update_delete .extend i:after,
+.timeline_delete_income .extend i:after {
+    right: -16px;
+}
+
+.timeline_login .extend i:after {
+    content: "\f090";
+    font-size: 25px;
+    line-height: 43px;
+}
+
+.timeline_delete_recurring_invoice .extend,
+.timeline_add_recurring_invoice .extend,
+.timeline_edit_recurring_invoice .extend {
+    background-image: url(images/recurring-icon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.timeline_delete_recurring_invoice .extend i:before,
+.timeline_add_recurring_invoice .extend i:before,
+.timeline_edit_recurring_invoice .extend i:before,
+.timeline_delete_layout .extend i:before,
+.timeline_add_layout .extend i:before,
+.timeline_received_stock .extend i:before,
+.timeline_received_stock_updated .extend i:before,
+.timeline_received_stock_deleted .extend i:before,
+.timeline_edit_layout .extend i:before,
+.timeline_sold_stock .extend i:before,
+.timeline_sold_stock_updated .extend i:before,
+.timeline_sold_stock_deleted .extend i:before,
+.stock_adjustment .extend i:before,
+.stock_adjustment_updated .extend i:before,
+.stock_adjustment_deleted .extend i:before,
+.timeline_login .extend i:before,
+.timeline_import_data .extend i:before {
+    content: "";
+}
+
+.timeline_delete_layout .extend,
+.timeline_add_layout .extend,
+.timeline_edit_layout .extend {
+    background-image: url(images/timeline-outline.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.timeline_received_stock .extend,
+.timeline_received_stock_updated .extend,
+.timeline_received_stock_deleted .extend {
+    background-image: url(images/stocks.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.timeline_sold_stock .extend,
+.timeline_sold_stock_updated .extend,
+.timeline_sold_stock_deleted .extend {
+    background-image: url(images/stocks-out.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.stock_adjustment .extend,
+.stock_adjustment_updated .extend,
+.stock_adjustment_deleted .extend {
+    background-image: url(images/stocks-adjust.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.timeline_add_email_template .extend i:before,
+.timeline_edit_email_template .extend i:before,
+.timeline_delete_email_template .extend i:before {
+    content: "\f199";
+}
+
+.timeline_delete_recurring_invoice .extend i,
+.timeline_add_recurring_invoice .extend i,
+.timeline_edit_recurring_invoice .extend i,
+.timeline_delete_layout .extend i,
+.timeline_add_layout .extend i,
+.timeline_received_stock_updated .extend i,
+.timeline_received_stock_deleted .extend i,
+.timeline_received_stock .extend i,
+.timeline_edit_layout .extend i,
+.timeline_received_stock .extend i,
+.timeline_received_stock_updated .extend i,
+.timeline_received_stock_deleted .extend i,
+.timeline_sold_stock .extend i,
+.timeline_sold_stock_updated .extend i,
+.timeline_sold_stock_deleted .extend i,
+.stock_adjustment .extend i,
+.stock_adjustment_updated .extend i,
+.stock_adjustment_deleted .extend i {
+    display: block;
+    height: 42px;
+    width: 29px;
+    text-align: center;
+}
+
+.timeline_add_product .extend i:after {
+    content: "\f07a";
+}
+
+.label-bar {
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+    background: #f6f9fc;
+    padding: 5px 15px;
+    margin: -15px -15px 15px;
+    position: relative;
+}
+
+.timeline_client_pay .extend i:after,
+.timeline_add_invoice_payment .extend i:after {
+    content: "\f0d6";
+}
+
+.label-bar .meta-details li {
+    margin: 0;
+}
+
+.posts .timeline-item:after {
+    top: 30px;
+}
+
+.posts .timeline-item:before {
+    top: 29px;
+}
+
+@media (max-width: 480px) {
+    #report_activities {
+        margin: -5px !important;
+        padding: 10px !important;
+        min-height: 260px !important;
+    }
+
+    .timeline-wrapper:before {
+        left: 13px;
+    }
+
+    .extended .extend {
+        left: -54px;
+        top: 11px;
+        width: 40px;
+        height: 40px;
+        line-height: 31px;
+        font-size: 19px;
+    }
+
+    .timeline-item {
+        margin-left: 40px;
+    }
+
+    .extended .timeline-item {
+        margin-left: 48px;
+    }
+
+    .extended .extend i {
+        color: #fff;
+        line-height: 33px;
+    }
+
+    .timeline_update_invoice .extend i:after,
+    .timeline_edit_appointment .extend i:after,
+    .timeline_edit_po .extend i:after,
+    .timeline_update_expense .extend i:after,
+    .timeline_update_estimate .extend i:after,
+    .timeline_update_income .extend i:after,
+    .timeline_edit_staff .extend i:after,
+    .timeline_edit_activity .extend i:after,
+    .timeline_edit_project .extend i:after,
+    .timeline_edit_client .extend i:after,
+    .timeline_edit_product .extend i:after,
+    .timeline_send_login .extend i:after,
+    .timeline_received_stock_updated .extend i:after,
+    .stock_adjustment_updated .extend i:after,
+    .timeline_edit_email_template .extend i:after,
+    .timeline_edit_layout .extend i:after,
+    .timeline_sold_stock_updated .extend i:after,
+    .timeline_edit_recurring_invoice .extend i:after {
+        right: -6px;
+        top: -12px;
+    }
+
+}
